@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+}
+header{
+    background-color: #292E36;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.img_icon{
+    margin: 0 193px 0 201px;
+}
+section{
+    background: #ffffff;
+}
+a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 59px;
+    padding: 20px 0 20px 0;
+}
+
+.link_menu:hover{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #E1B168;
+    text-decoration: none;
+    margin-left: 59px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1430px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.main-link{
+    border: 1px solid #E1B168;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px 57px 20px 57px;
+}
+button{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.44px;
+    color: #292E36;
+    background: #E1B168;
+    border: 2px solid #E1B168;
+    border-radius: 0px;
+    padding: 20px 86px;
+}
+.link_social{
+    padding-right: 20px;
+    cursor: pointer;
+}
+h1{
+    font-family: 'Cormorant Infant', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 110px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding-top: 26px;
+    margin-right: 50px;
+    margin-bottom: 35px;
+}
+/* Додаткові внесення на сайта + кнока з інфмацією */
+.btn-outline{
+    text-decoration: none;
+    color: #E1B168;
+    padding: 10px 30px;
+    border: 2px solid #E1B168;
+    position: relative;
+    transition: .5s;
+}
+.btn-outline::before,
+.btn-outline::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: .5s;
+}
+.btn-outline::before{
+    top:  -10px;
+    left: -10px;
+    border-width: 2px 0 0 2px;
+}
+.btn-outline::after{
+    bottom: -10px;
+    right: -10px;
+    border-width: 0 2px 2px 0;
+}
+.btn-outline:hover::before,
+.btn-outline:hover::after{
+    width: calc(100% + 18px);
+    height: calc(100% + 18px);
+}
+/* Додаткові внесення на сайта + кнока з інфмацією */
+.hieght_icon{
+    height: 769.66px;
+    width: 655px;
+    position: relative;
+    left: 95px;
+}
+.first_main{
+    position: relative;
+    right: 20px;
+}
+.first{
+    background-color: #FFF8F5;
+}
+
+
+/* SECTION ONE */
+.sublitle_second{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: 0.2px;
+    color: #292E36;
+}
+.subtitle_third{
+    padding-top: 15px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+    padding-right: 40px;
+}
+.second_container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.perfect_container{
+    margin-left: 65px;
+}
+
+/* ------------------------------------------ */
+.titles{
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #292E36;
+}
+.subtitles{
+    padding-top: 15px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+}
+.title-container{
+    padding-top: 25px;
+    display: flex;
+}
+
+
+/* ----------------MENU--------------------- */
+.box{
+    padding-top: 119px;
+    margin-left: 40px;
+}
+.title-menu{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #292E36;
+}
+.titles{
+    padding-top: 12px;
+}
+.subtitles{
+    padding-top: 13px;
+}
+.btn-position{
+    margin-top: 60px;
+    position: relative;
+    right: 50px;
+}
+
+/* -------  SIDEBAR  -------- */
+.sidebar{
+    margin-left: 40px;
+    position: relative;
+    top: 150px;
+
+}
+.sidebar-titles{
+    font-family: 'Cormorant Infant';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #292E36;
+    padding-bottom: 30px;
+    padding-left: 4px;
+    position: relative;
+    top: 5px;
+}
+.sidebar-subtitles{
+    font-family: 'Cormorant Infant';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    color: #292E36;
+    position: relative;
+    bottom: 110px;
+    left: 100px;
+}
+.sidebar-span{
+    position: relative;
+    top: -10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+}
+
+/* Slider */
+.card{
+  background: #343942;
+  margin: 20px 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card::before{
+  content: "";
+  background: #ffffff;
+}
+
+.card .card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  z-index: 100;
+}
+
+.slider .card .image{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  padding: 3px;
+  background: #ffffff;
+}
+
+.slider .card .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid rgb(195, 185, 7);
+}
+
+.card .media-icons{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card .media-icons i{
+  color: rgb(10, 10, 10);
+  opacity: 0.6;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card .media-icons i:hover{
+  opacity: 1;
+}
+
+.card .name-profession{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+} 
+
+.name-profession .name{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.name-profession .profession{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #E1B168;
+}
+
+.name-title{
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.card .button{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.card .button button{
+  background-color: #555555;
+  border: 1px solid #E1B168;
+  color: #fff;
+  padding: 8px 22px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.button button:hover{
+  background: #ffa41d;
+}
+
+.swiper-pagination{
+  position: absolute;
+}
+
+.swiper-pagination-bullet{
+  height: 7px;
+  width: 26px;
+  border-radius: 25px;
+  background: #E1B168;
+}
+
+.swiper-button-next, .swiper-button-prev{
+  opacity: 0.7;
+  color: #E1B168;
+  transition: all 0.3s ease;
+}
+.swiper-button-next:hover, .swiper-button-prev:hover{
+  opacity: 1;
+  color: #E1B168;
+}
+/* END Slider */
+.light{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* Offer */
+.container-offer{
+    display: grid;
+    text-align: center;
+}
+.title-offer{
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #292E36;
+    padding-bottom: 12px;
+}
+.title-Our{
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 0.2px;
+    color: #292E36;
+    padding-bottom: 10px;
+}
+.title-chef{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #555555;
+}
+.btn-position-menu{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+/* -----------Section Offer------------------- */
+.title-Service{
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 11px;
+}
+.title-Our-Secvice{
+    font-family: 'Cormorant Infant';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding-bottom: 13px;
+}
+.title-title{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.service-icons{
+    margin:140px 30px 140px 0;
+}
+/* ---------Blog------------ */
+.title-blog{
+    padding-top: 130px;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #292E36;
+}
+.title-First-Blog{
+    font-family: 'Cormorant Infant';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #292E36;
+    padding-top: 12px;
+}
+.title-text-blog{
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #555555;
+    padding-top: 8px;
+}
